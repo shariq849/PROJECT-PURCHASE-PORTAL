@@ -1,0 +1,42 @@
+/* Admin panel CSS */
+.main{
+    background-color: #124985;
+    color: white;
+    font-size: 1rem;
+    line-height: 2.5;
+    border-radius: 10px;
+    font-family:'Inter';
+    box-sizing: border-box;
+}
+
+.card1{
+    font-size: 1.2em;
+    padding: 1.5em;
+}
+.card1:hover{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+h1{
+    font-family: "inter";
+}
+/* Admin panel CSS */
+
+/* Responsive layout */
+ @media(min-width:992px){
+    .main{
+        min-height: 100vh;
+    }
+   .card1{
+    font-weight: bold;
+
+   }
+}
+@media(max-width:989px){
+    .main, .card1,h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+}
+/* Responsive layout */
